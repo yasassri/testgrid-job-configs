@@ -14,7 +14,7 @@ infrastructureConfig:
      - ORACLE_JDK8
   provisioners:
     - name: single-node-deployment
-      remoteRepository: "git@github.com:wso2/aws-ei.git"
+      remoteRepository: "git@github.com:ctienshi/aws-ei.git"
       description: Provision Infra for running intg tests
       scripts:
         - name: 'prod-wso2-ei-scenario-deployment'
