@@ -28,7 +28,7 @@ infrastructureConfig:
             DBUsername: "wso2carbon"
             DBPassword: "DB_Password"
             ProductVersion: "6.4.0"
-            InternalPrepareForTest: "True"
+            InternalPrepareForTest: "true"
             ElasticSearchEndpoint: "https://search-wso2test-5ugmbsabnl7mdcmhjhu7d5s3e4.us-east-1.es.amazonaws.com/"
 scenarioConfig:
   testType: INTEGRATION
